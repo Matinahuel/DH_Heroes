@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const port = 3030;
 const path = require('path');
-const { send } = require('process');
 const views = path.join(__dirname,'/views');
 
 app.use(express.static(path.join(__dirname, 'public')));
